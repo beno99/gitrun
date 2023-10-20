@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>GITRUN</title>
+</head>
+<body>
+    <div id="conteiner">
+        <header class="logoh1">
+            <img src="./img/logo.svg" alt="3ogo git" width="26%">
+            <h1>GitRun</h1>
+        </header>
+        <nav>
+            <input class="searchs" placeholder="digite o user ">
+            <button onclick="oneClick()"><img  class="buscar" src="./img/search (1).svg (1).svg" alt="" width="30px"></button>
+        </nav>
+        <main id="main">
+            <div id="information">
+                <article>
+                    <img src="./img/user.svg" alt="foto-suario" id="userFoto" width="290px" p>
+                    <h2>Benoni99</h2>
+                    <a href="#"><u>https://github.com/beno99</u></a>
+                </article>
+                <aside>
+                    <p>programador  Font end / UX design  </p>
+                </aside>
+            </div>
+            <section>
+                <h3>Popular repositories</h3>
+                <div class="repositorio">
+                    <h4><u>projeto incode</u></h4>
+                </div>
+                <div class="repositorio" id="repos-container">
+                    <ul id="repos-list"></ul>
+                </div>
+            </section>
+        </main>
+    </div> 
+    <script src="./js/id.js"></script>
+</body>
+</html>
